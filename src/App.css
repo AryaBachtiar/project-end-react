@@ -1,6 +1,12 @@
 .App {
   text-align: center;
+  background-color: rgb(14, 14, 14);
 }
+
+.swal2-actions{
+  gap: 10px;
+}
+
 
 .App-logo {
   height: 40vmin;

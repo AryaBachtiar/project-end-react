@@ -1,0 +1,116 @@
+{
+  "akun": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "147",
+      "role": "admin"
+    },
+    {
+      "id": 1,
+      "username": "user",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "username": "orang",
+      "password": "123",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "daftarBarang": [
+    {
+      "nama": "Nasi Goreng",
+      "deskripsi": "Nasi Goreng Dengan Toping Ayam,Telur,Sosis",
+      "harga": "12.000",
+      "kadarluarsa": "2022-10-12",
+      "image": "https://cdn-2.tstatic.net/travel/foto/bank/images/kuliner-nasi-goreng-jawa-enak-untuk-menu-sarapan.jpg",
+      "id": 1
+    },
+    {
+      "nama": "Bakso",
+      "deskripsi": "Daging yang melimpah dan Bakso yang Kenyal",
+      "harga": "10.000",
+      "kadarluarsa": "2022-11-12",
+      "image": "https://cdn0-production-images-kly.akamaized.net/aDZbOOV2WeJCgCiBFgFQwoXJN64=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2029093/original/066661300_1521949447-Bakso.jpg",
+      "id": 2
+    },
+    {
+      "nama": "Nasi Rendang",
+      "deskripsi": "Daging Sapi Rendang Dengan Bumbu Yang masih turu-memurun ",
+      "harga": "20.000",
+      "kadarluarsa": "2022-10-12",
+      "image": "https://assets.pikiran-rakyat.com/crop/74x12:890x646/x/photo/2021/03/28/2173660325.jpg",
+      "id": 3
+    },
+    {
+      "nama": "Mie Ayam Goreng",
+      "deskripsi": "Mie yang kenyal dan Harga yang aman di kantong",
+      "harga": "15.000",
+      "kadarluarsa": "2022-11-12",
+      "image": "https://i.ytimg.com/vi/lnH14XgweRo/maxresdefault.jpg",
+      "id": 4
+    },
+    {
+      "nama": "Es Boba ",
+      "deskripsi": "Boba Yang manis, kenyal dan dipadukan dengan susu",
+      "harga": "14.000",
+      "kadarluarsa": "2022-12-12",
+      "image": "http://images.malkelapagading.com/gallery/kenangan.jpg",
+      "id": 5
+    },
+    {
+      "nama": "Thai Tea",
+      "deskripsi": "Teh yang Dipadukan dengan susu menjadi minuman khas Thailand",
+      "harga": "10.000",
+      "kadarluarsa": "2022-12-12",
+      "image": "http://fik.unida.gontor.ac.id/wp-content/uploads/2020/02/Thai-tea.png",
+      "id": 6
+    },
+    {
+      "nama": "Gooday Freez Orange",
+      "deskripsi": "Kopi yang manis dan juga memiliki rasa yang berbeda dari yang lain",
+      "kadarluarsa": "2022-12-12",
+      "harga": "6.000",
+      "image": "https://s1.bukalapak.com/img/11149617422/large/data.jpeg.webp",
+      "id": 7
+    },
+    {
+      "nama": "Kopi Gani",
+      "deskripsi": "Rasa Kopi yang cirikhas dan membuat anda menjadi tidak ngantuk",
+      "kadarluarsa": "2022-12-12",
+      "harga": "5.000",
+      "image": "https://ds393qgzrxwzn.cloudfront.net/resize/c700x700/cat1/img/images/0/096SMo4BbZ.jpg",
+      "id": 8
+    },
+    {
+      "nama": "Kentang Goreng",
+      "deskripsi": "Kentang yang di goreng garing agar fresh di tangan pelanggan",
+      "kadarluarsa": "2022-12-12",
+      "harga": "11.000",
+      "image": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1639646021/ojzxqfbbmlsjtmmkhrr7.jpg",
+      "id": 9
+    }
+  ],
+  "makanan": [
+    {
+      "nama": "Es Boba ",
+      "deskripsi": "Mempunyai Rasa yang manis,dan Memiliki Boba yang Kenyal",
+      "harga": "15.000",
+      "kadarluarsa": "2022-10-12",
+      "image": "https://cf.shopee.co.id/file/07e6c6496086643fe4bb4a7d1500cd03",
+      "id": 4
+    }
+  ],
+  "minuman": [
+    {
+      "nama": "Es Boba ",
+      "deskripsi": "Mempunyai Rasa yang manis,dan Memiliki Boba yang Kenyal",
+      "harga": "15.000",
+      "kadarluarsa": "2022-10-12",
+      "image": "https://cf.shopee.co.id/file/07e6c6496086643fe4bb4a7d1500cd03",
+      "id": 4
+    }
+  ]
+}
