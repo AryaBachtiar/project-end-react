@@ -12,15 +12,14 @@ export default function Footer() {
        
         <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/ba/63/fc/logo-general-d-sawah.jpg" alt="" style={{width:200}}/>
 
-        <p class="max-w-xs mt-4 text-gray-500">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
-          cupiditate quae nam molestias.
+        <p class="max-w-xs mt-4 text-white">
+          Rumah Makan Sederhana 
         </p>
 
         <ul class="flex gap-6 mt-8">
           <li>
             <a
-              href="/"
+              href="https://id-id.facebook.com/"
               rel="noreferrer"
               target="_blank"
               class="text-blue-700 transition hover:opacity-75"
@@ -44,7 +43,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://www.instagram.com/accounts/login/"
               rel="noreferrer"
               target="_blank"
               class="text-violet-700 transition hover:opacity-75"
@@ -68,7 +67,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://twitter.com/i/flow/login"
               rel="noreferrer"
               target="_blank"
               class="text-blue-500 transition hover:opacity-75"
@@ -90,7 +89,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://github.com/"
               rel="noreferrer"
               target="_blank"
               class="text-white transition hover:opacity-75"
@@ -114,7 +113,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="/"
+              href="https://dribbble.com/tags/login"
               rel="noreferrer"
               target="_blank"
               class="text-orange-700 transition hover:opacity-75"
@@ -142,36 +141,36 @@ export default function Footer() {
         class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4"
       >
         <div>
-          <p class="font-medium text-gray-900">Services</p>
+          <p class="font-medium text-gray-900 no-underline">Services</p>
 
           <nav aria-label="Footer Navigation - Services" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   1on1 Coaching
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Company Review
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Accounts Review
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   HR Consulting
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   SEO Optimisation
                 </a>
               </li>
@@ -185,19 +184,19 @@ export default function Footer() {
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Meet the Team
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Accounts Review
                 </a>
               </li>
@@ -211,19 +210,19 @@ export default function Footer() {
           <nav aria-label="Footer Navigation - Company" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Contact
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   FAQs
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Live Chat
                 </a>
               </li>
@@ -237,25 +236,25 @@ export default function Footer() {
           <nav aria-label="Footer Navigation - Legal" class="mt-6">
             <ul class="space-y-4 text-sm">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Accessibility
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Returns Policy
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Refund Policy
                 </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75">
+                <a href="#" class="text-white transition hover:opacity-75 no-underline">
                   Hiring Statistics
                 </a>
               </li>
@@ -266,7 +265,7 @@ export default function Footer() {
     </div>
 
     <p class="text-xs text-gray-500">
-      &copy; 2022. Company Name. All rights reserved.
+      &copy; 2022. Company Arya. All rights reserved.
     </p>
   </div>
 </footer>

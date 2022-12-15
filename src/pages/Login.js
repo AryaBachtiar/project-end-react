@@ -18,8 +18,8 @@ export default function Login() {
             );
             if (login) {
                 Swal.fire(
-                    'Login Berhasil!',
-                    'Selamat Datang !' ,
+                    'Login Berhasil! '  + (login.role),
+                    'Selamat Datang ! ' + (login.role),
                     'success'
                   )
                 localStorage.setItem("id", login.id)

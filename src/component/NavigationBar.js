@@ -54,12 +54,12 @@ export default function NavigationBar() {
           style={{ width: 100 }}
         />
         <Container>
-          <Navbar.Brand href="/" className="text-white">
+          <Navbar.Brand href="/" className="text-white font-semibold">
             D'Sawah Bns
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" text-color="white">
-            <Nav className="me-auto text-white">
+            <Nav className="me-auto text-white font-bold">
               <Nav.Link href="/daftar" className="text-white hover:text-blue-500">
 
               Daftar Menu

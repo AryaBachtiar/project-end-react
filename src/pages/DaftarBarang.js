@@ -5,10 +5,6 @@ import { useHistory } from "react-router-dom";
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 
-
-
-// method yang berfungsi get/menampilkan melalui db.json yang di buat
-// ada method untuk delte data melalui id yang di baca oleh sistem
 export default function Home() {
   const [barang, setBarang] = useState([]);
 
@@ -25,6 +21,7 @@ export default function Home() {
       });
   };
 
+
   useEffect(() => {
     getAll();
   }, []);
@@ -35,7 +32,15 @@ export default function Home() {
     },
     buttonsStyling: false,
   });
-
+  const beli = async (barang) => {
+    await axios.post("http://localhost:8000/carts", barang);
+    console.log(barang);
+    Swal.fire(
+      'Anda Menambahkan '  + (barang.nama),
+       (barang.nama) + ' Telah Ditambahkan ',
+      'success'
+    )
+  }
   const deleteUser = async (id) => {
     swalWithBootstrapButtons
       .fire({
@@ -49,7 +54,7 @@ export default function Home() {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          axios.delete(" http://localhost:8000/daftarBarang/" + id);
+          axios.delete(" http://localhost:8000/daftarBarang/" + id); 
           swalWithBootstrapButtons.fire(
             "Deleted!",
             "Your file has been deleted.",
@@ -72,7 +77,7 @@ export default function Home() {
     getAll();
   };
 
-  const loginn = () => {
+  const login = () => {
     history.push("/login")
   } 
 
@@ -133,7 +138,7 @@ export default function Home() {
                       <>
                       <br />
                         <button
-                              onClick={loginn}
+                              onClick={login}
                               class="block w-full p-4 text-sm font-medium transition bg-yellow-400 rounded hover:scale-105"
                             >
                              
@@ -161,7 +166,8 @@ export default function Home() {
                         ) : (
                           <>
                           <br />
-                            <button class="block w-full p-4 text-sm font-medium transition bg-blue-400 rounded hover:scale-105">
+                            <button onClick={() => beli(barang)} 
+                            className="block w-full p-4 text-sm font-medium transition bg-blue-400 rounded hover:scale-105">
                               Add to Cart
                             </button>
                           </>
